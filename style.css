@@ -51,3 +51,122 @@ footer {
     bottom: 0;
     width: 100%;
 }
+/* css membre 2*/
+/* Style général */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+/* Conteneur principal */
+#secondary-page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh; /* Occupe toute la hauteur de la page */
+    padding-bottom: 60px; /* Espace pour éviter le chevauchement avec le footer */
+    box-sizing: border-box;
+}
+
+/* En-tête secondaire */
+#secondary-header {
+    background-color: #87CEEB; /* Bleu clair */
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 0 0 10px 10px;
+}
+
+#secondary-header h1,
+#secondary-header h2 {
+    margin: 5px 0;
+}
+
+/* Bouton "Menu 1" à gauche */
+#secondary-main {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 20px; /* Espacement à gauche */
+    margin: 20px 0;
+    box-sizing: border-box;
+}
+
+#menu-button {
+    background-color: #d3d3d3; /* Gris clair */
+    border: none;
+    border-radius: 10px;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: black;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#menu-button:hover {
+    background-color: #bbbbbb;
+    transform: translateY(-3px);
+}
+
+#menu-button:active {
+    background-color: #a9a9a9;
+    transform: translateY(0);
+}
+
+/* Bouton "Retour page principale" */
+#secondary-footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#return-button {
+    background-color: #d3d3d3; /* Gris clair */
+    border: none;
+    border-radius: 10px;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: black;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#return-button:hover {
+    background-color: #bbbbbb;
+    transform: translateY(-3px);
+}
+
+#return-button:active {
+    background-color: #a9a9a9;
+    transform: translateY(0);
+}
+
+/* Footer principal */
+#foot {
+    position: fixed; /* Toujours en bas de l'écran */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    background-color: #f9f9f9;
+    color: #777;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+#href{
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+}
+
+
